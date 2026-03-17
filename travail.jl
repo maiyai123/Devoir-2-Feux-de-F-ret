@@ -6,7 +6,7 @@
 #      matricule: 20234378
 #      github: maiyai123
 
-# # Introduction
+# Introduction
 
 # Dans les écosystèmes naturels, la répartition de la végétation change et progresse constamment sous divers effets de processus écologiques tels que la colonisation, la compétition, 
 # la mortalité et les polluants environnementaux ou atmosphériques. Dans un corridor écologique, ces interactions déterminent en général si certaines espèces végétales ont un progrès 
@@ -25,7 +25,7 @@
 # En théorie, des systèmes dynamiques stochastiques équilibrés, ayant des probabilités de transition constantes, devraient s'incliner vers un état d’équilibre statistique. Donc avec des paramètres
 # conforme, ce code, dans cet état, et à la suite d’années de génération, démontrât que les proportions moyennes des différents types de végétation deviennent relativement stables malgré les fluctuations aléatoires.
 
-# # Présentation du modèle
+# Présentation du modèle
 
 # Les packages nécessaires pour simuler le code.
 using Random 
@@ -217,7 +217,7 @@ axislegend(ax_bb, position=:rb)
 current_figure()
 # Finalement l'affiche de la figure finale
 
-# # Présentation des résultats
+# Présentation des résultats
 
 # La simulation du corridor de 200 parcelles avec deux espèces de buissons et des herbes montre une dynamique stochastique complexe. La heatmap qui montre l’évolution spatiale du corridor sur
 # 500 générations et les graphiques de séries temporelles montrent que les proportions moyennes des parcelles vides, d’herbes et de buissons oscillent autour de valeurs stables avec de petites 
