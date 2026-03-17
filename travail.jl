@@ -232,3 +232,19 @@ current_figure()
 # aléatoires et la difficulté de gérer un corridor écologique dans un contexte probabiliste. La structure de plantation initiale (25 parcelles pour chaque buisson) permet un équilibre initial, mais 
 # les probabilités de colonisation et de maintien des états (97,5 % pour vide, 90 % pour buissons et herbes) favorisent la dominance des parcelles vides et limitent la réussite du mandat. Cela suggère
 # que la gestion active d’un corridor nécessite des ajustements continus et que la simple plantation initiale peut être insuffisante pour garantir un objectif strict.
+
+# Limite
+# Bien que ce code permette d’illustrer les dynamiques écologiques probabilistes, il comporte plusieurs simplifications importantes.
+# Les parcelles évoluent indépendamment les unes des autres, alors que dans la réalité les interactions entre plantes peuvent influencer fortement les dynamiques locales. De plus, pour cette simulation,
+# il est forcément supposé que l'environnement est constant et homogène au long de plusieurs années alors qu'en vrai, un écosystème fait face à des conditions environnementales qui peuvent varier 
+# drastiquement et en conséquence y bénéficier ou non. Similairement, le modèle ne considère pas la dispersion des graines, la compétition interspécifique ou les perturbations naturelles. Avec seulement 200 parcelles, 
+# la variabilité stochastique est amplifiée, ce qui peut exagérer les fluctuations par rapport à des corridors plus étendus. Ces limitations expliquent pourquoi le taux de réussite du mandat est inférieur à 50 %,
+# malgré des paramètres théoriques qui devraient, en moyenne, permettre d’atteindre l’équilibre.
+
+# Conclusion
+# Cette simulation montre que, même avec un plan de plantation initial complexe et une matrice de transition définie, l’atteinte des objectifs écologiques dans un corridor est fortement influencée par 
+# la stochasticité naturelle. La majorité des parcelles restent vides, tandis que les herbes et les buissons persistent à faible densité. Le faible taux de succès (31 %) indique qu’un mandat strict
+# nécessite des interventions répétées ou des ajustements des probabilités de transition pour augmenter les chances de réussite. Le modèle reste cependant un outil utile pour explorer les dynamiques
+# végétales et tester différents scénarios de gestion, permettant de visualiser les effets de la stochasticité et de mieux comprendre les défis associés à l’aménagement de corridors écologiques sous
+# lignes à haute tension. 
+
